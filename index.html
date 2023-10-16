@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone - your favourite place for every music </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="Spotifylogo.jpeg" alt="Spotify-logo">
+                <span>Spotify</span>
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 style="margin: auto;">Discover yourself</h1>
+        <div class="songList">
+            <div class="songItemContainer"> 
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="0" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="1" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="2" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="3" class="fa-solid fa-circle-play songItemPlay off  "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="4" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="5" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="6" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="7" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="8" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover.jpeg" alt="">
+                    <span> random song</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30 <i id="9" class="fa-solid fa-circle-play songItemPlay off "></i></span></i></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" min="0" max="100" id="myProgressBar" value="0" name="range" id="progressBar"> 
+        <!-- <div class="icons"> -->
+            <!-- font Awesome icons -->
+            <!-- <i class="fa-solid fa-2x fa-backward" id="previous"> </i>
+            <i class="fa-solid fa-2x fa-circle-play song ItemPlay" id="play"></i>
+            <i class="fa-solid fa-2x fa-forward" id="next"></i>
+        </div> -->
+
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e9619501b8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

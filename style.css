@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darksalmon;
+}
+nav{
+    font-family:'Montserrat', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #121212;
+    gap: 20px;
+    color: wheat;
+    max-width: 1028px;
+    min-width: 100%;
+}
+.brand img{
+    width: 40px;
+    padding: 0 8px ;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container{
+    min-height: 75vh;
+    background-color: #E3E3E3;
+    color: black;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 34px;
+}
+
+ul .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: #121212;
+    display: flex; 
+    flex-direction: column;
+    gap: 8px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+.bottom .icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.icons i {
+    cursor: pointer;
+}
+#myProgressBar{
+    width:80vw;
+    cursor: pointer;
+}
+.noneed{
+    width: 20%;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: wheat;
+    
+    color: black;
+    margin: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timeStamp{
+    margin: 0 30px;
+
+}
+.songItemContainer{
+    margin-top: 50px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: darksalmon;
+    }
+  }
